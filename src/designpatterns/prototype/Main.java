@@ -20,6 +20,5 @@ public class Main {
         System.out.println("\n After adding color");
         bike.show();
         clonedBike.show();
-
     }
 }
