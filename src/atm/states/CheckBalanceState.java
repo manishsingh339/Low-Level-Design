@@ -4,13 +4,11 @@ import atm.ATM;
 import atm.Card;
 
 public class CheckBalanceState extends ATMState {
-    public CheckBalanceState(ATM atm, Card card) {
-        displayBalance(atm, card);
+    public CheckBalanceState() {
     }
     @Override
     public void displayBalance(ATM atm, Card card) {
-        System.out.println("Balance: " + card.getBalance());
+        System.out.println("Account Balance: " + card.getBalance());
         exit(atm);
     }
-
 }

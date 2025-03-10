@@ -17,7 +17,8 @@ public class SelectOptionState extends ATMState {
                 atm.setAtmState(new CashWithdrawalState());
                 break;
             case BALANCE_CHECK:
-                atm.setAtmState(new CheckBalanceState(atm, card));
+                atm.setAtmState(new CheckBalanceState());
+                atm.displayBalance(atm, card);
                 break;
             default:
                 System.out.println("Invalid Option");

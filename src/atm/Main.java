@@ -10,10 +10,10 @@ public class Main {
         ATM atm = ATM.getInstance();
 
         // check account balance
-       /* initializeATM(atm);
+        initializeATM(atm);
         atm.insertCard(card);
         atm.authenticatePin(card, 1122);
-        atm.selectOption(card, TransactionType.BALANCE_CHECK);*/
+        atm.selectOption(card, TransactionType.BALANCE_CHECK);
 
         // withdraw cash
         initializeATM(atm);

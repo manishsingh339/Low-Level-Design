@@ -21,9 +21,6 @@ public abstract class ATMState {
     public void displayBalance(ATM atm, Card card) {
         throw new RuntimeException("OOP! Something went wrong!");
     }
-    public void dispenseCash() {
-        throw new RuntimeException("OOP! Something went wrong!");
-    }
 
     public void exit(ATM atm) {
         returnCard();

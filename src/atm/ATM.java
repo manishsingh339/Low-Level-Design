@@ -83,4 +83,8 @@ public class ATM {
         System.out.println("500 Notes: " + noOfFiveHundredNotes);
         System.out.println("100 Notes: " + noOfOneHundredNotes);
     }
+
+    public void displayBalance(ATM atm, Card card) {
+        atmState.displayBalance(atm, card);
+    }
 }
